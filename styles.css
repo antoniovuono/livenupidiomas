@@ -8,7 +8,6 @@ html, body, .capa {
 
 body {
   
-   
     overflow-x: hidden;
     background-size: cover;
     
@@ -23,6 +22,7 @@ body {
     height: 109px;
     left: 0px;
     top: 0px;
+    background: #FFFFFF;
 
 }
 
@@ -76,15 +76,24 @@ color: #1D1F9A;
     height: 651px;
     left: 0px;
     top: 109px;
+    background: linear-gradient(89.91deg, #1D1F9A 11.89%, rgba(252, 21, 35, 0.85) 78.97%);
     
-    background:  linear-gradient(89.48deg, rgba(252, 21, 35, 0.8075) 20.92%, rgba(29, 31, 154, 0.8645) 69.44%);
-    
-
 }
+
 
 .capa h1 {
-	margin-bottom: 50px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 900;
+font-size: 110px;
+line-height: 147px;
+letter-spacing: -0.05em;
+color: #FFFFFF;
+
 }
+
+
 
 
 .texto-capa {
@@ -97,7 +106,10 @@ color: #1D1F9A;
 
 /* -- Botoes -- */
 .btn-custom {
-	color: white;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-family: roboto;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
     -moz-border-radius: 500px;
